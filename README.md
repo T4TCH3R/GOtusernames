@@ -16,14 +16,17 @@ Chris Stewart
 ## Example:
 
 ### Help menu
+```
 ~/programming/golang/src/gotyourusername ❯ ./GOtusernames -h
 Usage of ./GOtusernames:
   -f string
         Please select the file with first and lastnames like: John Doe
   -o string
         Output the new domain usernames to a file.
+```
         
 ### output generated usernames to your screen
+```
 ~/programming/golang/src/gotyourusername ❯ ./GOtusernames -f testfile/users.txt 
 H.Brook 
 HamBrook
@@ -40,8 +43,10 @@ James.P
 James        
 Phelps 
 ......
+```
 
 ### Output the generated users to a file
+```
 ~/programming/golang/src/gotyourusername ❯ ./GOtusernames -f testfile/users.txt -o output.txt
 ~/programming/golang/src/gotyourusername ❯ cat output.txt                                     
 H.Brook                                                                                       
@@ -59,6 +64,7 @@ James.P
 James                                          
 Phelps
 ......
+```
 
 
 
