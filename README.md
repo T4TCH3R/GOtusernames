@@ -2,6 +2,8 @@
 Generate possible AD usernames from names like John Doe > J.Doe or JDoe
 
 ## Example user file:
+```
+~/programming/golang/src/gotyourusername ❯ cat testfile/users.txt
 Ham Brook
 James Phelps
 Keely Lyons
@@ -12,6 +14,7 @@ Kaiara Spencer
 Dave Simpson
 Ben Thompson
 Chris Stewart
+```
 
 ## Example:
 
