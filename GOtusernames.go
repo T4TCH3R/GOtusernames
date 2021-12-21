@@ -33,13 +33,13 @@ func createUser(file string, output string) {
 				first_name := first_last[0]
 				last_name := first_last[1]
 
-				fmt.Fprintf(outputfile, "%s.%s \n", first_name[0:1], last_name)
-				fmt.Fprintf(outputfile, "%s"+"%s \n", first_name, last_name)
-				fmt.Fprintf(outputfile, "%s"+"%s \n", first_name[0:1], last_name)
-				fmt.Fprintf(outputfile, "%s.%s \n", first_name, last_name)
-				fmt.Fprintf(outputfile, "%s.%s \n", first_name, last_name[0:1])
-				fmt.Fprintf(outputfile, "%s \n", first_name)
-				fmt.Fprintf(outputfile, "%s \n", last_name)
+				fmt.Fprintf(outputfile, "%s.%s\n", first_name[0:1], last_name)
+				fmt.Fprintf(outputfile, "%s"+"%s\n", first_name, last_name)
+				fmt.Fprintf(outputfile, "%s"+"%s\n", first_name[0:1], last_name)
+				fmt.Fprintf(outputfile, "%s.%s\n", first_name, last_name)
+				fmt.Fprintf(outputfile, "%s.%s\n", first_name, last_name[0:1])
+				fmt.Fprintf(outputfile, "%s\n", first_name)
+				fmt.Fprintf(outputfile, "%s\n", last_name)
 			}
 		} else {
 			scanner := bufio.NewScanner(read)
@@ -51,11 +51,11 @@ func createUser(file string, output string) {
 				first_name := first_last[0]
 				last_name := first_last[1]
 
-				fmt.Printf("%s.%s \n", first_name[0:1], last_name)
+				fmt.Printf("%s.%s\n", first_name[0:1], last_name)
 				fmt.Println(first_name + last_name)
 				fmt.Println(first_name[0:1] + last_name)
-				fmt.Printf("%s.%s \n", first_name, last_name)
-				fmt.Printf("%s.%s \n", first_name, last_name[0:1])
+				fmt.Printf("%s.%s\n", first_name, last_name)
+				fmt.Printf("%s.%s\n", first_name, last_name[0:1])
 				fmt.Println(first_name)
 				fmt.Println(last_name)
 			}
