@@ -1,6 +1,13 @@
 # GOtusernames
 Generate possible AD usernames from names like John Doe > J.Doe or JDoe
 
+## Installation:
+```
+~/programming/golang/src/gotyourusername ❯ git clone https://github.com/T4TCH3R/GOtusernames.git
+~/programming/golang/src/gotyourusername ❯ cd GOtusernames
+~/programming/golang/src/gotyourusername/GOtusernames ❯ go build -o GOtusernames main.go
+```
+
 ## Example user file:
 ```
 ~/programming/golang/src/gotyourusername ❯ cat testfile/users.txt
