@@ -5,7 +5,7 @@ Generate possible AD usernames from names like John Doe > J.Doe or JDoe
 ```
 ~/programming/golang/src/gotyourusername ❯ git clone https://github.com/T4TCH3R/GOtusernames.git
 ~/programming/golang/src/gotyourusername ❯ cd GOtusernames
-~/programming/golang/src/gotyourusername/GOtusernames ❯ go build -o GOtusernames main.go
+~/programming/golang/src/gotyourusername/GOtusernames ❯ go build -o GOtusernames GOtusernames.go
 ```
 
 ## Example user file:
